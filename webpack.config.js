@@ -11,6 +11,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { extendDefaultPlugins } = require('svgo');
 
+const bootstrap = require('bootstrap');
+
 const environment = require('./configuration/environment');
 
 const templateFiles = fs.readdirSync(environment.paths.source)
